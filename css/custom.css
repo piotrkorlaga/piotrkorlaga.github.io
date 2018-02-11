@@ -31,6 +31,12 @@ h1 {
     border-left: 5px solid #EEE;
 }
 
+.job-title{
+    color: #777;
+}
+.my-name{
+    margin-left: 0;
+}
 small {
     font-size: 0.8em;
 }
