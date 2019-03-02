@@ -78,3 +78,25 @@ img.flip {
 {
     vertical-align: middle;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+@media print {
+    body {
+        width: 1024px; /* Using px here */
+    }
+
+    body > div {
+        max-width: 1024px; /* Set container max-width to same width as body to avoid overflow */
+    }
+}
