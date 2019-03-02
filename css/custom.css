@@ -11,7 +11,7 @@
 }
 
 .social-button-section {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .mt50 {
@@ -68,4 +68,13 @@ img.flip {
         margin-left: 50px;
     }
 
+}
+
+.contact-details {
+    margin-bottom: 5px;
+}
+.contact-details a,
+.contact-details span
+{
+    vertical-align: middle;
 }
